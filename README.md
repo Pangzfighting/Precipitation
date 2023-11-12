@@ -1,5 +1,5 @@
 # Precipitation
-## Section 1: Grid to District Level Conversion
+## Section 1: Data Cleaning
 #### The primary objective of this section is to transform a grid-level dataset into a district-level dataset for five Indian states: Gujarat, Kerala, Pondicherry, Punjab, and Rajasthan. The process involves matching each grid point to its corresponding district based on a weighted average of daily mean temperature, daily mean rainfall, and daily total rainfall. The weights are determined by the inverse of the squared distance from each district's geographic center.
 
 ### Steps:
