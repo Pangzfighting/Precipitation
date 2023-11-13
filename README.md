@@ -3,7 +3,7 @@
 #### The primary objective of this section is to transform a grid-level dataset into a district-level dataset for five Indian states: Gujarat, Kerala, Pondicherry, Punjab, and Rajasthan. The process involves matching each grid point to its corresponding district based on a weighted average of daily mean temperature, daily mean rainfall, and daily total rainfall. The weights are determined by the inverse of the squared distance from each district's geographic center.
 
 ### Steps:
-#### Utilize geodist or vincenty commands in software like Stata, R, or Python to calculate the distance between each grid point and every district centroid.
+#### Utilize geodist or vincenty commands to calculate the distance between each grid point and every district centroid.
 #### Apply the weighted average algorithm to obtain district-level daily datasets for the years 2009-2013.
 
 ## Section 2: Data Exploration
